@@ -1,0 +1,4 @@
+build/
+src/
+*.bz2
+*.swp
