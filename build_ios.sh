@@ -4,9 +4,9 @@
 # ftp.videolan.org/pub/videolan/x264/snapshots/
 # http://ffmpegmac.net/HowTo/
 
-major=20141123
+major=20130220
 minor=2245
-micro=1
+micro=2
 
 SDK_VERS=8.1
 XCD_ROOT="/Applications/Xcode.app/Contents/Developer"
@@ -35,7 +35,7 @@ tar xvjf $pakt -C $srcs
 cd $srcs/$name
 perl -i -pe "s| -falign-loops=16||" configure
 
-archs="armv7 armv7s arm64 i386"
+archs="armv7 armv7s arm64 i386 x86_64"
 
 for a in $archs; do
   case $a in
