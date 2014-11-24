@@ -4,7 +4,7 @@
 # ftp.videolan.org/pub/videolan/x264/snapshots/
 # http://ffmpegmac.net/HowTo/
 
-major=20141123
+major=20130220
 minor=2245
 micro=2
 
