@@ -43,9 +43,9 @@ for a in $archs; do
       sys_root=${SDK_ROOT}
       host=arm-apple-darwin9
       ;;
-    i386)
+    i386|x86_64)
       sys_root=${SDK_SML_ROOT}
-      host=i686-apple-darwin9
+      host=${a}-apple-darwin9
       ;;
   esac
   prefix=$insl/$a && rm -rf $prefix && mkdir -p $prefix
