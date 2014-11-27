@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author              = { "Echo Liao" => "echoliao8@gmail.com" }
   s.requires_arc        = false
   s.platform            = :ios
-  s.source              = { :http => "https://github.com/EchoLiao/x264-prebuild/raw/master/x264-iOS-20141123.2245.2-stable.tgz" }
+  s.source              = { :http => "http://github.com/EchoLiao/x264-prebuild/raw/master/x264-iOS-20141123.2245.2-stable.tgz" }
   s.preserve_paths      = "include/**/*.h"
   s.vendored_libraries  = 'lib/*.a'
   s.libraries           = 'x264'
